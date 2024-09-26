@@ -17,6 +17,6 @@ else:
 
 chart_data = pd.DataFrame(
     np.random.randn(20, 3),
-    column==['a', 'b', 'c'])
+    columns=['a', 'b', 'c'])
 
 st.line_chart(chart_data)
